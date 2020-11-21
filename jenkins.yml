@@ -2,7 +2,7 @@ version: "3"
 services:
   identidock:
     build: .
-    ports:
+    expose:
      - "9090"
     environment:
       ENV: PROD
